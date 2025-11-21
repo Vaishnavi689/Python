@@ -1,0 +1,30 @@
+num=int(input("enter a number :"))
+
+if num<0:
+    print("Number is Negative")
+
+if num>0:
+    print("Number is Positive")
+
+if num==0:
+    print("Zero")
+
+
+
+if num %2==0:
+    print("Number is Even")
+
+if num%2 !=0:
+    print("Number is ODD")
+
+#The year is leap year or not
+# the year which is divisible by 400
+# the year which is divisible by 4 but not 100
+
+year=int(input("Enter a year:"))
+
+if year%400 == 0 or (year % 4 == 0 and year % 100 !=0):
+    print("Leap Year")
+
+else:
+    print("Not a leap year")
